@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    margin: 1vh auto;
+    text-align: center;
+    color:rgb(82, 79, 79);
+}
+main{
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    background-color:  #ccd5ae;
+    align-items: start;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 2rem;
+    gap:1rem;
+    margin-top: 3rem;
+}
+#workToDo{
+    border-radius: 10px;
+    display: flex;
+    gap: 1rem;
+    align-items: stretch;
+}
+#work{
+    flex-grow: 1;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    border: 2px solid gray;
+}
+#add{
+    padding-inline: 1rem;
+    background-color: dodgerblue;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-wrap: nowrap;
+}
+#taskNum{
+    color: dodgerblue;
+    font-size: 1.2rem;
+}
+#list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.aboutTask{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.taskContainer{
+    display: flex;
+    gap: 1rem;
+}
+.delete{
+   padding: 0.5rem 0.8rem;
+   background-color: tomato;
+   color: white;
+   font-weight: 600;
+   border:none;
+   outline: none;
+   border-radius: 5px;
+}
